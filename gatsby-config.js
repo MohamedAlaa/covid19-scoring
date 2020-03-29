@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `أختبار فيروس كورونا`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
   },
@@ -31,7 +31,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-html-attributes',
       options: {
-        lang: 'ar'
+        lang: 'ar',
+        dir: 'rtl'
       }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
@@ -42,5 +43,14 @@ module.exports = {
         precachePages: [`/`, `/page-2/`, `/404/`],
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Cairo` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
+    }
   ],
 }

@@ -11,9 +11,29 @@ module.exports = {
     },
     colors: {
       transparent: 'transparent',
-
+      body: '#333',
+      primary: {
+        800: '#5B41E2',
+        900: '#4227CD'
+      },
+      secondary: {
+        100: '#EFECFD',
+        500: '#AAA3CC',
+        700: '#8C74FE',
+        900: '#AAA3CC'
+      },
       black: '#000',
       white: '#fff',
+      success: {
+        100: 'rgba(42, 193, 126, .1)',
+        200: 'rgba(42, 193, 126, .2)',
+        900: '#2AC17E',
+      },
+      danger: {
+        100: 'rgba(255, 125, 107, .1)',
+        200: 'rgba(255, 125, 107, .2)',
+        900: '#FF7D6B',
+      },
 
       gray: {
         100: '#f7fafc',
@@ -224,11 +244,12 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        'Cairo',
         'system-ui',
         '-apple-system',
         'BlinkMacSystemFont',
-        '"Segoe UI"',
         'Roboto',
+        '"Segoe UI"',
         '"Helvetica Neue"',
         'Arial',
         '"Noto Sans"',
@@ -240,6 +261,7 @@ module.exports = {
       ],
       serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: ['Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
+      arabic: ['Cairo', 'Roboto', 'sans-serif']
     },
     fontSize: {
       xs: '0.75rem',
