@@ -1,7 +1,7 @@
 @import "tailwindcss/base";
 
 body {
-  @apply text-body text-xl bg-secondary-100;
+  @apply text-body text-xl bg-html;
 }
 
 html {
